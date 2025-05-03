@@ -1,0 +1,95 @@
+/* Container Styling */
+.table-container {
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Table */
+.table-container table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table Header */
+.table-container thead {
+    background-color: #007bff;
+    color: white;
+}
+
+.table-container th, .table-container td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Hover Effect */
+.table-container tbody tr:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+/* Buttons */
+button {
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+/* View Button */
+button.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+button.btn-info:hover {
+    background-color: #138496;
+}
+
+/* Edit Button */
+button.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+button.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Delete Button */
+button.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .table-container {
+        width: 95%;
+    }
+    
+    .table-container th, .table-container td {
+        padding: 8px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
